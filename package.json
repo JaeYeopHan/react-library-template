@@ -10,7 +10,7 @@
     "test": "echo \"no test specified.\"",
     "lint": "eslint -c .eslintrc '{pages,src}/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "yarn lint --fix",
-    "commit": "npx git-cz",
+    "commit": "git-cz",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
@@ -29,6 +29,7 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "eslint-plugin-simple-import-sort": "^5.0.3",
+    "git-cz": "^4.6.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.7",
     "typescript": "^3.9.3"
